@@ -36,6 +36,12 @@ header .header__icons--container .icons {
     justify-items: flex-end;
     align-items: center;
     justify-content: space-between;
-    justify-content: end;
+    justify-self: end;
     margin-right: 50px;
 }
+
+header .icons span::before{
+    /* los íconos se tratarán como fuentes */
+    color: white;
+    font-size: 30px;
+} 
