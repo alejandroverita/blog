@@ -329,6 +329,27 @@ Codigo de la clase:
 [========]
 
 
+## MANEJO DE IMÁGENES DE BACKGROUND
+
+    background-image: url('../assets/img/Cover1.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+
+<br>
+
+[========]
+
+## AGREGANDO FUENTES
+
+En el CSS:
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+`font-family: 'Roboto mono' 'monospace';`
+
+## TERMINANDO EL HOME
 
 
 
