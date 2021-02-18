@@ -194,11 +194,139 @@ Codigo de la clase:
 
 
 
+## 	AGREGANDO ICONOS
+
+[Pack de iconos usado en la clase:](https://www.flaticon.com/packs/social-media-86 "Pack de iconos usado en la clase:")
+
+**HTML**
+
+     <link rel="stylesheet" href="./css/font/font/flaticon.css">
+    
+    </head>
+    <body>
+       <header>
+           <section class="header__icons--container">
+               <div class="icons">
+                   <a href=""> <span class="fimanager flaticon-001-facebook"></span></a>
+                   <a href=""> <span class="fimanager flaticon-011-instagram"></span></a>
+                   <a href=""> <span class="fimanager flaticon-003-whatsapp"></span></a>
+                   <a href=""> <span class="fimanager flaticon-010-linkedin"></span></a>
+               </div>
+
+
+**CSS**
+
+    header .icons span::before{
+        /* los íconos se tratarán como fuentes */
+        color: white;
+        font-size: 30px;
+    } 
+	
+	
+
+<br>
+
+[========]
 
 
 
+## 	AGREGANDO IMÁGENES AL HEADER
+
+**HTML**
+
+     <nav>
+               <section class="nav__logo--container">
+                 <a href=""><img src="assets/img/Logo-negro.png" alt="Logo de mi blog"></a>
+               </section>
+               <section class="profile__link">
+                <a href="perfil.html">Sobre mi</a>
+               </section>
+           </nav>
+       </header> 
+       <main>
+            <div class="main__container">
+                <h2 class="main__container--title">
+                    Conoce las novedades y noticias del mundo Tech
+                </h2>
+                <div class="main__container--button">
+                    <a href="/">Entra ya!</a>
+                </div>
+            </div>
+       </main>
 
 
+
+**CSS**
+
+    nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 90px;
+    }
+    
+    
+    nav .nav__logo--container {
+    
+        margin-left: 50px;
+    
+    }
+    
+    nav .nav__logo--container img {
+        width: 220px;
+        margin-top: 10px;
+    }
+    
+    nav .profile__link {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 50px;
+    }
+    
+    nav .profile__link a {
+        color: black;
+        border-bottom: 1px solid black;
+    }
+    
+    main {
+        height: 100%;
+        background-image: url(../assets/img/Cover.png);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+    main .main__container{
+        text-align: center;
+    }
+    
+    main .main__container .main__container--title {
+        color: white;
+        letter-spacing: 10px;
+        font-size: 40px;
+        width: 50rem
+    }
+    
+    main .main__container .main__container--button {
+        height: 40px;
+        background-color: #47cfac;
+        width: 100px;
+        margin: 100px auto;
+        display: grid;
+    }
+    
+    main .main__container .main__container--button a {
+        font-size: 15px;
+        margin: auto;
+        font-weight: bold;
+    }
+
+
+
+<br>
+
+[========]
 
 
 
