@@ -352,7 +352,27 @@ En el CSS:
 ## TERMINANDO EL HOME
 
 
+## ESTILOS DEL BOTÓN
 
+    .blogs__button {
+        border: 1px solid #47cfac;
+        padding: 10px 15px;
+        font-size: 12px;
+        transition: all .5s;
+    
+    }
+    
+    .blogs__button:hover{
+        border: 1px solid white;
+        color: white;
+        background-color: #48cfad;
+    }
+	
+
+
+## TRABAJANDO EN LA SECCION EL POST
+
+## GRID CONTAINER
 
 
 
