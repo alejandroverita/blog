@@ -295,3 +295,69 @@ footer p {
 }
 
 
+/* SECCION DE PROFILE */
+
+
+.profile__main {
+    display: grid;
+    /* background: linear-gradient(145deg,#41CFAC, #FA5AB5); */
+}
+
+
+.profile__news--container {
+    background-color: #e6e9ed; 
+    padding: 50px 40px;
+
+}
+
+.profile__main--new {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+
+.profile__news--img-container{
+    grid-column: 1;
+}
+
+.profile__news--img-container img {
+
+    width: 85%;
+}
+
+
+.profile__news--info-container{
+    grid-column: 2;
+}
+
+.profile__news--info-container p {
+    margin-bottom: 35px;
+}
+
+
+/* PROJECTS STYLES */
+
+.projects__posts--container {
+    padding: 0 50px 40px;
+}
+
+.projects__posts--container h3 {
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.projects__posts--container .projects__container  {
+    display: inline-block; /* Porque por defecto article es display block */
+    padding-left: 10px;
+    max-width: 30%;
+    margin-bottom: 50px;
+}
+
+.projects__posts--container .projects__container p {
+    margin-bottom: 35px;
+}
+
+.projects__posts--container .projects__container img {
+    width: 100% /* referente al padre */
+}
