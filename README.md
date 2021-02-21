@@ -384,6 +384,18 @@ En el CSS:
 ## MAQUETANDO PERFFIL HTML
 
 
+## MAQUETANDO ESTILOS EN LA PAGINA DE PERFIL
+
+
+## FIN DEL CURSO
+
+Cursos recomendados:
+
+- [Firebase](https://platzi.com/clases/firebase-web/ "Firebase")
+- [Escuela Javascript](https://platzi.com/escuela-javascript/ "Escuela Javascript")
+
+
+
 
 
 

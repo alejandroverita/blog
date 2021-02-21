@@ -23,7 +23,7 @@ a {
 }
 
 .home-body {
-    position: fixed;
+   /*  position: fixed; */
     top: 0;
     bottom: 0;
     left: 0;
@@ -106,8 +106,8 @@ nav .profile__link a {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* display: flex;
-    justify-content: center; */
+    display: flex;
+    justify-content: center; 
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
 }
